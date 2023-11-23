@@ -2503,10 +2503,6 @@ input[type=search]::-webkit-search-decoration {
 }
 
 /* 7. Featured Media */
-#featured-media {
-	width: 100%;
-	height: 100% !important;
-}
 .featured-media {
 	position: relative;
 	z-index: 1;
