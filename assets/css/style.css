@@ -180,7 +180,7 @@ h1, h2, h3, h4, h5, h6, blockquote {
 }
 
 h1.display {
-	margin-top: 0;
+	margin-top: 8rem;
 }
 
 h1 a,
@@ -1237,7 +1237,7 @@ h1,
 
 h1.display,
 .h1-display {
-	font-size: 4.768em;
+	font-size: 4em;
 	font-weight: 400;
 }
 
