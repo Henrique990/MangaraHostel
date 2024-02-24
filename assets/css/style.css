@@ -30,8 +30,8 @@ Table of contents:
 
 /* 0. Variables */
 :root {
-	--body-font: 'Open Sans', sans-serif;
-	--headings-font: 'Playfair Display', serif;
+	--body-font: 'Signika', sans-serif;
+	--headings-font: 'Signika', serif;
 	--headings-font-weight: 700;
 	--headings-text-color: #121212;
 	--body-background-color: #ffb800;
@@ -2551,6 +2551,7 @@ input[type=search]::-webkit-search-decoration {
 }
 
 .featured-text {
+	display: flex;
 	position: relative;
 	z-index: 4;
 	padding-top: var(--spacing-level2);
