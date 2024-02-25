@@ -2551,7 +2551,7 @@ input[type=search]::-webkit-search-decoration {
 }
 
 .featured-text {
-	display: flex;
+	display: block;
 	position: relative;
 	z-index: 4;
 	padding-top: var(--spacing-level2);
@@ -3039,8 +3039,8 @@ body .block-grid.alignfull {
 		border-right: 1px solid var(--border-color);
 		-webkit-box-flex: 0;
 		-ms-flex: 0 0 50%;
-		flex: 0 0 50%;
-		max-width: 50%;
+		/* flex: 0 0 50%; */
+		/* max-width: 50%; */
 	}
 
 	.block-grid.alignwide.has-3-columns .grid-item:nth-of-type(3n),
@@ -3077,8 +3077,8 @@ body .block-grid.alignfull {
 	.block-grid.alignfull .grid-item {
 		-webkit-box-flex: 0;
 		-ms-flex: 0 0 33.33333%;
-		flex: 0 0 33.33333%;
-		max-width: 33.33333%;
+		/* flex: 0 0 33.33333%; */
+		/* max-width: 33.33333%; */
 	}
 }
 
