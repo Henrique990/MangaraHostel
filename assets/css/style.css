@@ -87,6 +87,7 @@ Table of contents:
 *::after {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
+	/* border: 1px solid red; */
 }
 
 html {
@@ -106,8 +107,29 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
 	margin: 0;
+	padding: 0;
 	text-align: left;
 }
+
+/* body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+  } */
+  
+  .carousel-container {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+  }
+  
+  .carousel-slide {
+	display: flex;
+	transition: transform 0.5s ease-in-out;
+  }
+    
+  
+  
 
 [tabindex="-1"]:focus {
 	outline: 0 !important;
@@ -1028,6 +1050,8 @@ a:focus {
 	.tab-container .tabs a {
 		padding: .8em 1.5em;
 	}
+
+
 }
 
 .tab-container .tabs a:hover,
@@ -1768,6 +1792,24 @@ input[type=search]::-webkit-search-decoration {
 	.site-identity {
 		max-height: 60px;
 	}
+	button {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		background-color: #333;
+		color: white;
+		border: none;
+		padding: 10px;
+		cursor: pointer;
+	  }
+	  #prevBtn {
+		left: 10px;
+	  }
+	  
+	  #nextBtn {
+		right: 10px;
+	  }
+	
 }
 
 .site-identity a {
